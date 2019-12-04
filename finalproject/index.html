@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Trip Gallery</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Galleries for bike touring trips throughout michigan." />
+    <meta name="keywords" content="biking, cycling , outdoors, michigan, scenery, bikes, great lakes" />
+	<link rel="stylesheet" href="css/myscreen.css" media="all"/>
+    <link rel="stylesheet" href="css/myprint.css" media="print"/>
+    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text:700|Roboto:700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/40ae125186.js" crossorigin="anonymous"></script>  
+</head>
+<body class="center" style="background-image: url('media/map.jpg'); background-repeat: repeat-y;">
+<div id="mySidenav" class="sidenav"> 
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+    <a href="https://www.michigan.gov/dnr/0,4570,7-350-79119_79145---,00.html" target="_blank">Camping</a> 
+    <a href="https://gravelmap.com/#@44.8096,-85.57069999999999,11,hybrid" target="_blank">Choosing a Route</a> 
+    <a href="https://www.weather.gov/" target="_blank">Weather</a> 
+    <a href="https://bikepacking.com/gear/" target="_blank">Gear</a> 
+</div>
+<div id="main" title="Click to Open"> 
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+<header>
+ 	<h1>Trip Gallery</h1>
+ </header>
+<section class="row">
+<div class="col-6 col-m-6 container">
+    <img src="media/kw4.jpg" style="max-width: 100%;" alt="lake, bike, outdoors, michigan" class="image">
+    <div class="middle">
+        <a href="Keweenaw.html">
+        <div class="text">Keweenaw</div>
+        </a>
+    </div>
+</div>
+<div class="col-6 col-m-6 container">
+    <img src="media/tom1.jpg" style="max-width: 100%;" alt="quary, bike, outdoors, michigan" class="image">
+    <div class="middle">
+            <a href="NWLowerPeninsula.html">
+                <div class="text">NW Lower Peninsula</div>
+            </a>
+    </div>
+</div>
+<div class="col-6 col-m-6 container">
+    <img src="media/lp2.jpg" style="max-width: 100%;" alt="bridge, bikes, river, michigan" class="image">
+    <div class="middle">
+        <a href="LeelanauPeninsula.html">
+        <div class="text">Leelanau Peninsula</div>
+        </a>
+    </div>
+</div>
+<div class="col-6 col-m-6 container">
+    <img src="media/m22_1.jpg" style="max-width: 100%;" alt="bikes, outdoors, michigan" class="image">
+    <div class="middle">
+        <a href="M22.html">
+            <div class="text">M22</div>
+        </a>
+    </div>
+</div>
+
+</section>
+<footer>
+    <div class="icon-bar">
+        <a href="https://www.linkedin.com/in/neal-sabin-871510b5" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+	<p style="text-align:right;"> <small>&copy;Neal Sabin November 30, 2019. Last Updated November 30, 2019</small></p>
+</footer>
+<script>
+    function openNav() { 
+        document.getElementById("mySidenav").style.width = "250px"; 
+        document.getElementById("main").style.marginLeft = "250px"; 
+    } 
+    
+    function closeNav() { 
+        document.getElementById("mySidenav").style.width = "0"; 
+        document.getElementById("main").style.marginLeft= "0"; 
+    } 
+</script>
+</body>
+</html>
